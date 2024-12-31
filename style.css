@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(#e66465, #9198e5);
+  width: 600px;
+  height: 700px;
+  font-weight: bold;
+  color: white;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container h1,
+p {
+  margin: 10px;
+}
+
+.sum {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: rgba(75, 84, 153, 0.88);
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.sum:hover {
+  background-color: rgb(75, 84, 153);
+}
+input {
+  font-size: 15px;
+}
